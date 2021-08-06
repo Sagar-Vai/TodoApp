@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+margin: 0;
+}
+.container{
+    border: 1px solid;
+    height: 50vh;
+    width: 26vw;
+    margin-left: 25rem;
+    margin-top: 5rem;
+    overflow: auto;
+}
+.input-box{
+    position: fixed;
+    left: 28rem;
+    top: 7rem;
+}
+.Add-Btn{
+    position: fixed;
+    left: 41rem;
+    top: 7rem;
+}
+.currdiv{
+    /* border: 1px solid; */
+    height: 2rem;
+    width: 20rem;
+}
+.currTask{
+    /* border: 1px solid; */
+    height: 14rem;
+    position: fixed;
+    width: 20rem;
+    top: 13rem;
+    left: 27.4rem;
+}
+
+.innerDiv{
+    display: flex;
+    height: 2rem;
+    border: 1px black;
+}
+
+.notice{
+    border: 1px solid;
+    position: fixed;
+    left: 27rem;
+    top: 10rem;
+    height: 5rem;
+    width: 20rem;
+    background-color: pink;
+}
+.okay{
+    position: fixed;
+    left: 29rem;
+    top: 13rem;
+}
+.cancel{
+    position: fixed;
+    left: 34rem;
+    top: 13rem;
+}
+.edit{
+    position: fixed;
+    left: 43%;
+    height: 2rem;
+}
+.okayBtn{
+    position: fixed;
+    top: 13rem;
+}
